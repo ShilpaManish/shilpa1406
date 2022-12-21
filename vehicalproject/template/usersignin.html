@@ -39,9 +39,9 @@
                         <form action="{% url 'customersignin' %}" method="POST">
                             {% csrf_token %}
                             
-                            <input type="text" class="form-control form-control-sm mt-3" placeholder="Enter Username" name="username">
+                            <input type="text" class="form-control mt-3" placeholder="Enter Username" name="username">
                             
-                            <input type="password" class="form-control form-control-sm mt-3" placeholder="Enter Password" name="password">
+                            <input type="password" class="form-control mt-3" placeholder="Enter Password" name="password">
                             
                             <div class="d-grid pt-3">
                                 <button type="submit" class="btn btn-style btn-block">Signin</button>

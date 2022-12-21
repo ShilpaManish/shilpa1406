@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VEHCARE </title>
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{% static 'css/vehcare.css' %}">
 </head>
 <body>
@@ -27,7 +28,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-style btn-block"><a href="{% url 'custsignup' %}" class="user-text">Customer</a></button>
+                                <button type="submit" class="btn btn-style btn-block"><a href="{% url 'custprofile' %}" class="user-text">I am a Customer <i class="fa fa-users ps-2" aria-hidden="true"></i></a></button>
                               </div>
                         </div>
                     </div>
@@ -35,7 +36,7 @@
                     <div class="row pt-5">
                         <div class="col-md-12">
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-style btn-block"><a href="mechanicsignup.html" class="user-text">Mechanic</a></button>
+                                <button type="submit" class="btn btn-style btn-block"><a href="{% url 'mechprofile' %}" class="user-text">I am a Mechanic<i class="fa fa-taxi ps-2" aria-hidden="true"></i></a></button>
                               </div>
                         </div>
                     </div>

@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-page</title>
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <!-- responsive nav bar -->
+    <section>
+        <div class="m-4">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand vehcare"><img src="{% static 'images/vecarecrop.png' %}" class="img-fluid size" alt=""></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a href="#" class="nav-item nav-link active Vehicare">Vehicare</a>
+                           
+                            <a href="#" class="nav-item nav-link link-text">Customer</a>
+                            <!-- <a href="#" class="nav-item nav-link disabled link-text" tabindex="-1">Reports</a> -->
+                        </div>
+                        <div class="navbar-nav ms-auto">
+                            <a href="{% url 'logout' %}" class="nav-item nav-link link-text">Logout</a>
+                            <a href="vehcare.html" class="nav-item nav-link link-text"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script> 
+</body>
+</html>

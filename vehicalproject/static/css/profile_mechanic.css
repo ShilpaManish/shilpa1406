@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.logo-img{
+    text-align: center;
+}
+.customer-profile{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 19px;
+    text-align: center;
+    color: #414345;
+}
+.btn-color{
+    background-color: #4F9CB9;
+    color: white;
+
+}
+.btn-color:hover{
+    background-color:#4F9CB9 ;
+    color: white;
+}
+.a .btn-submit{
+    text-decoration: none;
+}
+.view-input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #505152;
+}
+.profile-input{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #505152; 
+}

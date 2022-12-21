@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    /* overflow: auto hidden visible scroll, */
+}
+.size{
+    width: 50px;
+    height: 40px;
+}
+.Vehicare{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #3e454b;
+}
+.link-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #404244;
+}
